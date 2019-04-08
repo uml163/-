@@ -6,7 +6,7 @@
 
 | 版本	|日期  | 描述	|作者
 |------|-----------|-----|---
-|v1.1|	2019-2-16|	草案	|zfr0411
+|v1.1|	2019-2-16|	美食管理 V1.0	|zfr0411
 
 1、项目简介
 ==========
@@ -40,12 +40,16 @@ goal: 就产品“产品范围、愿景和核心业务”达成一致
 项目启动会议：所有人
 项目愿景等文档： xxx
 XX业务故事板设计: xxx
-Iteration 1 (3 weeks from 2019.03.010 to 2019.03.31)
+
+Iteration 1 (from 2019.03.010 to 2019.03.31)
+
 goals:
-微信小程序：拥有简单界面，用户登陆，菜单显示，用户编辑个人信息
-web服务器：简单管理界面、管理员登陆、密码加密、cookie、简单界面切换
-环境配置：服务器搭建、能正常运行web服务器、域名解析
-详见KANBAN()
+
+* 微信小程序：拥有简单界面，用户登陆，菜单显示，用户编辑个人信息
+* web服务器：简单管理界面、管理员登陆、密码加密、cookie、简单界面切换
+* 环境配置：服务器搭建、能正常运行web服务器、域名解析
+
+详见KANBAN(https://github.com/orgs/uml163/projects/5)
 
 makes tech prototype for something
 builds a proto system to demostrate core scene
@@ -58,3 +62,4 @@ goals:
 …
 milestones
 …
+
