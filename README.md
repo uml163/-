@@ -9,7 +9,7 @@
 
 部署服务端过程：
 
-1.根据自己的操作系统按教程安装docker 
+1.根据自己的操作系统按教程安装docker 参考：https://baijiahao.baidu.com/s?id=1592846051245987256&wfr=spider&for=pc
 
 2.启动docker ，将镜像传入主机。命令： docker load  --input mycentos.tar
 
