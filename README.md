@@ -3,9 +3,7 @@
 
 由于国内注册不了docker账号，先将镜像文件上传至百度云盘供大家下载：
 
-百度云地址：
-
-密码：
+百度云地址：https://pan.baidu.com/s/1OPlh80YUtMo2DmE5UkPNZw
 
 部署服务端过程：
 
