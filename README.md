@@ -10,8 +10,8 @@
 2.获取镜像：
 docker pull zfr0411/myrepository:mycentos
 
-3.启动镜像service服务，并设置端口映射：docker run -itd -p X(未被占用的端口):5000 --name mycontainer --privileged  mycentos init
-
+3.启动镜像service服务，并设置端口映射：
+docker run -itd -p X(未被占用的端口):5000 --name mycontainer --privileged zfr0411/myrepository:mycentos init         
 4.查看容器ID：docker ps -a。
 
 5.进入mycontainer容器：docker exec -ti ID /bin/bash
