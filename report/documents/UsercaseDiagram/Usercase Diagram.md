@@ -1,6 +1,6 @@
 # 用例图
 ##### 整个系统的用例图如下：
-![](https://github.com/uml163/UML/blob/master/pictures/用例图.png)
+![](UsercaseDiagramIMG/用例图.png)
 ## 用例文本
 #### 整个系统的用例如下，可根据需要查看各子用例图。
 ##### **基本用例：**
