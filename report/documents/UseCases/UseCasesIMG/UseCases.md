@@ -1,6 +1,6 @@
 ##### 商家注册活动图
 
-![](UseCases/UseCasesIMG/商家处理活动图.png)
+![](UsercaseDiagramIMG/用例图.png)
 
 ##### 商家处理活动图
 
