@@ -17,7 +17,10 @@
  
 * 7、Design (设计说明书)
   * 7.1 [UI design]（界面设计）
-  * 7.2 [Database design](report/documents/DatabaseDesign.md) （数据库设计）
+  * 7.2 Database design（数据库设计）
+    * 7.2.1 用户及权限系统数据库设计
+    * 7.2.2 [数据库ER模型图] (report/documents/DatabaseDesign.md) 
+    * 7.2.3 第三方数据评审结果
   * 7.3 Interface ApI design（接口API设计）
   * 7.4 Architecture design（架构设计）
   * 7.5 Usecase design（用例设计）
