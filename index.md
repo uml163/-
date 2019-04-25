@@ -6,7 +6,7 @@
 * 3、[Investigation](report/documents/Investigation.md) (项目前期调研/竞品分析)
 * 4、[Vision](report/documents/Vision.md) (项目愿景)
 * 5、[Product Backlog](report/documents/Product Backlog.md) (产品特性库)
-* 6、[Requirement](report/documents/Requirement.md) (需求规格说明书)
+* 6、Requirement (需求规格说明书)
 
   * 6.1  [Usecase Diagram](report/documents/UsercaseDiagram/Usercase Diagram.md) (用例图)
   * 6.2  [Use Cases](report/documents/UseCases/UseCase.md) (活动图)
