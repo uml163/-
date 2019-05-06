@@ -10,7 +10,7 @@
   * 6.1  [Usecase Diagram](report/documents/UsercaseDiagram/Usercase Diagram.md) (用例图)
   * 6.2  [Use Cases](report/documents/UseCases/UseCase.md) (活动图)
   * 6.3  [Domian Models](report/documents/Domain_Model/Domain_Model.md)（领域模型）
-  * 6.4  State Models（状态模型）
+  * 6.4  [State Models](report/documents/State_Models/State_Models.md)（状态模型）
   * 6.5 System Sequence Diagrams（功能模型）
   * 6.6 Supplementary Requirements（补充需求）
  
