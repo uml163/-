@@ -20,9 +20,9 @@
     * 7.2.1 [用户及权限系统数据库设计](report/documents/7.2.1.md)
     * 7.2.2 [数据库ER模型图](report/documents/7.2.2.md) 
     * 7.2.3 第三方数据评审结果
-  * 7.3 [Interface ApI design（接口API设计）]()
-  * 7.4 [Architecture design（架构设计）]()
-  * 7.5 [Usecase design（用例设计）]()
+  * 7.3 [Interface ApI design（接口API设计）](https://github.com/uml163/UML/blob/master/report/documents/7.3.md)
+  * 7.4 [Architecture design（架构设计）](https://github.com/uml163/UML/blob/master/report/documents/7.4.md)
+  * 7.5 [Usecase design（用例设计）](https://github.com/uml163/UML/blob/master/report/documents/7.5.md)
  
 * 8、生产规范与指南
   * 8.1 XX代码规范
