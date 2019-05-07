@@ -25,7 +25,7 @@
   * 7.5 [Usecase design（用例设计）](https://github.com/uml163/UML/blob/master/report/documents/7.5.md)
  
 * 8、生产规范与指南
-  * 8.1 XX代码规范
+  * 8.1 [代码规范](client_v1/代码规范.md)
   * 8.2 REST API设计规范
   * 8.3 架构设计、详细设计（BCE方法）到应用程序框架映射指南
   * 8.4 [部署说明](report/documents/8.4.md)
