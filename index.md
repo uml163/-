@@ -11,7 +11,7 @@
   * 6.2  [Use Cases](report/documents/UseCases/UseCase.md) (活动图)
   * 6.3  [Domian Models](report/documents/Domain_Model/Domain_Model.md)（领域模型）
   * 6.4  [State Models](report/documents/State_Models/State_Models.md)（状态模型）
-  * 6.5 System Sequence Diagrams（功能模型）
+  * 6.5 [System Sequence Diagrams](report/documents/System_Sequence_Diagram/System_Sequence_Diagram.md)（功能模型）
   * 6.6 Supplementary Requirements（补充需求）
  
 * 7、[Design (设计说明书)](https://github.com/uml163/UML/blob/master/report/documents/Design.md)
