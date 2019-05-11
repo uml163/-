@@ -53,6 +53,6 @@ layout: default
 
 ### 参考案例
 * [扫码点餐支付系统竞品报告](https://baoleme.github.io/Dashboard/documents/competitor_analyze.html)
-* [项目前期调研]（(https://sysu-gogo.github.io/sysu-gogo-food-docs/03-investigation)
+* [项目前期调研](https://sysu-gogo.github.io/sysu-gogo-food-docs/03-investigation)
 
 
