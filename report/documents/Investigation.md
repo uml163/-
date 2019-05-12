@@ -7,7 +7,7 @@ layout: default
 {:.no_toc}
 
 * 目录
-{：toc}
+{:toc}
 
 ### 点餐-取号微信小程序及公众号平台调研报告
 
