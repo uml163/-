@@ -21,8 +21,8 @@
     * 7.2.2 [数据库ER模型图](report/documents/7.2.2.md) 
     * 7.2.3 第三方数据评审结果
   * 7.3 [Interface ApI design（接口API设计）](https://app.swaggerhub.com/apis/zfr0411/Order/1.0.0#/)
-  * 7.4 [Architecture design（架构设计）](https://github.com/uml163/UML/blob/master/report/documents/7.4.md)
-  * 7.5 [Usecase design（用例设计）](https://github.com/uml163/UML/blob/master/report/documents/7.5.md)
+  * 7.4 [Architecture design（架构设计）](report/documents/7.4.md)
+  * 7.5 [Usecase design（用例设计）](report/documents/7.5.md)
  
 * 8、生产规范与指南
   * 8.1 [代码规范](client_v1/代码规范.md)
