@@ -14,7 +14,7 @@
   * 6.5 [System Sequence Diagrams](report/documents/System_Sequence_Diagram/System_Sequence_Diagram.md)（功能模型）
   * 6.6 Supplementary Requirements（补充需求）
  
-* 7、[Design (设计说明书)]
+* 7、Design (设计说明书)
   * 7.1 [UI design（界面设计）](https://github.com/uml163/UML/blob/master/report/documents/7.1.md)
   * 7.2 Database design（数据库设计)
     * 7.2.1 [用户及权限系统数据库设计](report/documents/7.2.1.md)
