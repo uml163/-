@@ -9,10 +9,10 @@
 * 6、Requirement (需求规格说明书)
   * 6.1  [Usecase Diagram](report/documents/UsercaseDiagram/Usercase Diagram.md) (用例图)
   * 6.2  [Use Cases](report/documents/UseCases/UseCase.md) (活动图)
-  * 6.3  [Domian Models](report/documents/Domain_Model/Domain_Model.md)（领域模型）
-  * 6.4  [State Models](report/documents/State_Models/State_Models.md)（状态模型）
-  * 6.5 [System Sequence Diagrams](report/documents/System_Sequence_Diagram/System_Sequence_Diagram.md)（功能模型）
-  * 6.6 [Supplementary Requirements](report/documents/Supplementary Requirements.md)（补充需求）
+  * 6.3  [Domian Models](report/documents/Domain_Model/Domain_Model.md)(领域模型)
+  * 6.4  [State Models](report/documents/State_Models/State_Models.md)(状态模型)
+  * 6.5 [System Sequence Diagrams](report/documents/System_Sequence_Diagram/System_Sequence_Diagram.md)(功能模型)
+  * 6.6 [Supplementary Requirements](report/documents/Supplementary Requirements.md)(补充需求)
  
 * 7、Design (设计说明书)
   * 7.1 [UI design（界面设计）](report/documents/7.1.md)
