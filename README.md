@@ -1,8 +1,16 @@
-[课程作业网站](http://uml163.github.io/UML/.)
+---
+layout: default
+---
+
+# [](#TOC)目录
+
+&nbsp;&nbsp; 
+
+[课程作业网站](http://uml163.github.io/UML/)
 
 项目文档目录
 ===
-* 1、[About](report/documents/01-about.md)  (项目概况)
+* 1、[About](report/documents/01-about)  (项目概况)
 * 2、[Team profile](report/documents/02-team profile.md)  (团队组建与分工）
 * 3、[Investigation](report/documents/03-investigation.md) (项目前期调研/竞品分析)
 * 4、[Vision](report/documents/04-vision.md) (项目愿景)
