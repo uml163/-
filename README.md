@@ -27,8 +27,8 @@
  
 * 8、生产规范与指南
   * 8.1 [代码规范](report/documents/8.1-coding_standard.md)
-  * 8.2 REST API设计规范(report/documents/8.2-REST_API_rules.md)
-  * 8.3 架构设计、详细设计（BCE方法）到应用程序框架映射指南(report/documents/8.3-architecture.md)
+  * 8.2 [REST API设计规范](report/documents/8.2-REST_API_rules.md)
+  * 8.3 [架构设计、详细设计（BCE方法）到应用程序框架映射指南](report/documents/8.3-architecture.md)
   * 8.4 [部署说明](report/documents/8.4-deployment_doc.md)
 * 9、成品展示
   * 9.1 XX短视频
