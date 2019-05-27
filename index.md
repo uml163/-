@@ -17,7 +17,7 @@
   * 7.2 Database design（数据库设计)
     * 7.2.1 [用户及权限系统数据库设计](report/documents/7.2.1-database_design.md)
     * 7.2.2 [数据库ER模型图](report/documents/7.2.2-database_ER_model.md) 
-    * 7.2.3 [第三方数据评审结果](report/documents/7.2.3-第三方数据评审结果.md)
+    * 7.2.3 [第三方数据评审结果](https://github.com/uml163/UML/issues/1)
   * 7.3 [Interface ApI design（接口API设计）](report/documents/index.html)
   * 7.4 [Architecture design（架构设计）](report/documents/7.4-software_architecture_document.md)
   * 7.5 [Usecase design（用例设计）](report/documents/7.5-usecase_design.md)
