@@ -20,7 +20,7 @@
 #### 二、项目讨论
 ##### 
 * 前期调研
- ![IR3](/UML/pictures/IR3.png)
+ ![IR3](/UML/report/meet-recording/image/IR3.jpg)
  ![IR4](/UML/pictures/IR4.png)
  ![IR5](/UML/pictures/IR5.png)
  ![IR6](/UML/pictures/IR6.png)
