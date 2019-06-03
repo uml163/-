@@ -18,10 +18,10 @@
 #### 二、项目讨论
 ##### 
 * 前期调研
-* ![](https://i.imgur.com/NbDheuY.jpg)
-* ![](https://i.imgur.com/6Xk05fa.jpg)
-* ![](https://i.imgur.com/V9IFln2.jpg)
-* ![](https://i.imgur.com/HgogDcQ.jpg)
+ ![](https://i.imgur.com/NbDheuY.jpg)
+ ![](https://i.imgur.com/6Xk05fa.jpg)
+ ![](https://i.imgur.com/V9IFln2.jpg)
+ ![](https://i.imgur.com/HgogDcQ.jpg)
 * 前期调研调研结果分析
 	* 当前大学生使用点餐形势实现就餐情况比较普遍，使用众多的点餐软件是美团饿了么等软件，这些软件的功能齐全，界面设计友好，后期的优化服务等都很好，我们应该更多的与大学生的身份相符合，打造出自己的特色，同时给大学生群体带来更多的便利
 	* 分析讨论客户端实现的功能及简单的样式：功能方面实现用户下单，商家接单，用户取消订单等基本操作，另外实现分享功能，界面采用轮播图配卡片式
