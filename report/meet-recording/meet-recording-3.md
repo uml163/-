@@ -23,7 +23,7 @@
 * 完成分布式部署，搭建多线程服务
 * ER模型图建立：
 
-![ER1](pictures/ERModel.png)
+![ER1](pictures/ERmodel.png)
 
 ##### 前端
 * 添加商品的分享
