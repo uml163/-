@@ -54,12 +54,13 @@ iteration1 meeting in Tuesday
                - makes tech prototype for something
                - builds a proto system to demostrate core scene
                - collects 50% requirments scene stories
-     - milestones
+      - milestones
          - tick-off meeting 99/1/28
-         
- ### Iteration 2
+     
+     
+ ###  Iteration 2
  
- **week2（4/2/2019）**
+ **week3（4/2/2019）**
  
  iteration2 meeting in Tuesday
 
