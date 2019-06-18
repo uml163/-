@@ -32,7 +32,7 @@
   * 8.4 [部署说明](report/documents/8.4-deployment_doc.md)
 * 9、成品展示
   * 9.1 [XX短视频](https://v.youku.com/pad_show/id_XNDIxNjA4NjUyNA==.html?spm=a2hzp.8244740.0.0&source=https%3A%2F%2Fi.youku.com%2Fi%2Fprofile%3Fspm%3Duser.playlsit.table.7)
-  * 9.2 XX短视频
+  
 * X1 [meeting-records]
   *  [meet-recording-1](report/meet-recording/meet-recording-1.md) (2019-03-24)
 * X2 [KANBAN](https://github.com/orgs/uml163/projects)
