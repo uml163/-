@@ -37,7 +37,7 @@
 		任务种类商讨：问卷调查、拿取快递、家教、游戏代打
 		功能流程商讨：用户登录、发布（接收）任务、提交订单、完成任务、问卷调查
 
-![money](pictures/脑图.png)
+![](https://github.com/uml163/UML/blob/master/report/documents/pictures/%E8%84%91%E5%9B%BE.png?raw=true)
 
 #### 四、其他事项
 * 以后开会至少提前一天通知，且每次会议至少四人参加      
