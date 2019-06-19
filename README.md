@@ -7,7 +7,7 @@
 * 3、[Investigation](report/documents/03-investigation.md) (项目前期调研/竞品分析)
 * 4、[Vision](report/documents/04-vision.md) (项目愿景)
 * 5、[Product Backlog](report/documents/05-product_backlog.md) (产品特性库)
-* 6、[Requirement specification]
+* 6、[Requirement]() (需求规格说明书)
   * 6.1  [Usecase Diagram](report/documents/UsercaseDiagram/Usercase_Diagram.md) (用例图)
   * 6.2  [Use Cases](report/documents/UseCases/UseCase.md) (活动图)
   * 6.3  [Domian Models](report/documents/Domain_Model/Domain_Model.md)(领域模型)
@@ -35,6 +35,9 @@
   
 * X1 [meeting-records]
   *  [meet-recording-1](report/meet-recording/meet-recording-1.md) (2019-03-24)
+  *  [meet-recording-2](report/meet-recording/meet-recording-2.md) (2019-04-12)
+  *  [meet-recording-3](report/meet-recording/meet-recording-3.md) (2019-05-05)
+  *  [meet-recording-4&5](report/meet-recording/meet-recording-4&5.md) (2019-05-29)
 * X2 [KANBAN](https://github.com/orgs/uml163/projects)
 * X3 [auditing-records](report/documents/XX-auditing-records.md)
 * X4 [Tech/Work Report](report/documents/Tech/WorkReport.md) 
@@ -42,7 +45,6 @@
   * [16341023_zfr0411_docker安装与加速部署](report/documents/Tech/16341023_docker.md)
   * [16341025_wcptbtptpbcptdtptp_GitHub learning](report/documents/Tech/16341025_GitHub学习总结.md)
   * [16341020_palxu_用例建模总结](report/documents/Tech/16341020.md)
-
 * X5 [Final Report](report/documents/Final_report.md)
   * 学号-title
   * 小组分工与贡献率说明
