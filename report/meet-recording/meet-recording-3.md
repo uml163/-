@@ -23,7 +23,7 @@
 * 完成分布式部署，搭建多线程服务
 * ER模型图建立：
 
-![ER1](pictures/ERmodel.png)
+![ER1](https://github.com/uml163/UML/blob/master/pictures/ERmodel.png?raw=true)
 
 ##### 前端
 * 添加商品的分享
