@@ -20,7 +20,7 @@
 ## 2、重要分析设计文档
 * [需求规格说明书](6-requirement_specification.md)
 * [软件设计说明书](soft_design.md)
-* 产品演示视频
+* [产品演示视频](https://v.youku.com/pad_show/id_XNDIxNjA4NjUyNA==.html?spm=a2hzp.8244740.0.0&source=https%3A%2F%2Fi.youku.com%2Fi%2Fprofile%3Fspm%3Duser.playlsit.table.7)
 
 ## 3、敏捷开发迭代管理与大事纪
 ### Inceptions
