@@ -29,7 +29,7 @@
   * 8.3 [架构设计、详细设计（BCE方法）到应用程序框架映射指南](report/documents/8.3-architecture.md)
   * 8.4 [部署说明](report/documents/8.4-deployment_doc.md)
 * 9、成品展示
-  * 9.1 [皮皮龙餐饮短视频](https://v.youku.com/pad_show/id_XNDIxNjA4NjUyNA==.html?spm=a2hzp.8244740.0.0&source=https%3A%2F%2Fi.youku.com%2Fi%2Fprofile%3Fspm%3Duser.playlsit.table.7)
+  * 9.1 [皮皮龙餐饮产品展示小视频](https://v.youku.com/pad_show/id_XNDIxNjA4NjUyNA==.html?spm=a2hzp.8244740.0.0&source=https%3A%2F%2Fi.youku.com%2Fi%2Fprofile%3Fspm%3Duser.playlsit.table.7)
   
 * X1 meeting-records
   *  [meet-recording-1](report/meet-recording/meet-recording-1.md) (2019-03-24)
@@ -37,15 +37,13 @@
   *  [meet-recording-3](report/meet-recording/meet-recording-3.md) (2019-05-05)
   *  [meet-recording-4&5](report/meet-recording/meet-recording-4&5.md) (2019-05-29)
 * X2 [KANBAN](https://github.com/orgs/uml163/projects)
-* X3 [auditing-records](report/documents/XX-auditing-records.md)
-* X4 [Tech/Work Report](report/documents/Tech/WorkReport.md) 
+* X3 [Tech/Work Report](report/documents/Tech/WorkReport.md) 
   * [16341023_zfr0411__系统架构选择经验分享](report/documents/Tech/16341023.md)
   * [16341023_zfr0411_docker安装与加速部署](report/documents/Tech/16341023_docker.md)
   * [16341025_wcptbtptpbcptdtptp_GitHub learning](report/documents/Tech/16341025_GitHub学习总结.md)
   * [16341020_palxu_用例建模总结](report/documents/Tech/16341020.md)
   * [16341003_saturday11_软件测试](report/documents/Tech/16341003.md)
-* X5 [Final Report](report/documents/Final_report.md)
-  * [学号-title](Final/学号_title.md)
+* X5 Final Report
   * [小组分工与贡献率说明](Final/《小组分工与贡献率说明》.md)
 
 
