@@ -31,7 +31,7 @@
 * 9、成品展示
   * 9.1 [皮皮龙餐饮短视频](https://v.youku.com/pad_show/id_XNDIxNjA4NjUyNA==.html?spm=a2hzp.8244740.0.0&source=https%3A%2F%2Fi.youku.com%2Fi%2Fprofile%3Fspm%3Duser.playlsit.table.7)
   
-* X1 [meeting-records]
+* X1 meeting-records
   *  [meet-recording-1](report/meet-recording/meet-recording-1.md) (2019-03-24)
   *  [meet-recording-2](report/meet-recording/meet-recording-2.md) (2019-04-12)
   *  [meet-recording-3](report/meet-recording/meet-recording-3.md) (2019-05-05)
