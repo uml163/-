@@ -104,4 +104,197 @@
 Flask服务器由多个实例，处理请求
 * 使用 MySQL 作为数据库
 
+### 1.3模块划分
 
+#### 1.3.1顾客端
+* 小程序
+按照设计初稿的页面进行划分，划分成了，主页、购物车、我的详情页
+* 按照不同页面的程序功能划分，主页设置了轮转播放、下拉刷新、点击进入详情等等功能
+* 图标基本使用本地在线图片，对于buttonbar等不能使用在线图标的，我们选择将我们想要的图片上传至我们的服务器，通过服务器引入图标。
+* 组件树如下图所示：
+```
+.
+├── app.js
+├── app.json
+├── app.wxss
+├── components
+│   ├── cart
+│   │   ├── bar.js
+│   │   ├── bar.json
+│   │   ├── bar.wxml
+│   │   ├── bar.wxss
+│   │   ├── count-picker.js
+│   │   ├── count-picker.json
+│   │   ├── count-picker.wxml
+│   │   ├── count-picker.wxss
+│   │   ├── list.js
+│   │   ├── list.json
+│   │   ├── list.wxml
+│   │   ├── list.wxss
+│   │   ├── modal
+│   │   │   ├── select-customer-count.js
+│   │   │   ├── select-customer-count.json
+│   │   │   ├── select-customer-count.wxml
+│   │   │   └── select-customer-count.wxss
+│   │   ├── specification.js
+│   │   ├── specification.json
+│   │   ├── specification.wxml
+│   │   ├── specification.wxss
+│   │   ├── submit-order-bar.js
+│   │   ├── submit-order-bar.json
+│   │   ├── submit-order-bar.wxml
+│   │   └── submit-order-bar.wxss
+│   ├── food
+│   │   ├── category-list.js
+│   │   ├── category-list.json
+│   │   ├── category-list.wxml
+│   │   ├── category-list.wxss
+│   │   ├── menu-list-item.js
+│   │   ├── menu-list-item.json
+│   │   ├── menu-list-item.wxml
+│   │   ├── menu-list-item.wxss
+│   │   ├── menu-list.js
+│   │   ├── menu-list.json
+│   │   ├── menu-list.wxml
+│   │   ├── menu-list.wxss
+│   │   ├── search-box.js
+│   │   ├── search-box.json
+│   │   ├── search-box.wxml
+│   │   └── search-box.wxss
+│   └── iview
+├── config.js
+├── config.server.default.js
+├── config.server.js
+├── pages
+│   ├── food
+│   │   ├── cart.js
+│   │   ├── cart.json
+│   │   ├── cart.wxml
+│   │   ├── cart.wxss
+│   │   ├── detail.js
+│   │   ├── detail.json
+│   │   ├── detail.wxml
+│   │   ├── detail.wxss
+│   │   ├── menu.js
+│   │   ├── menu.json
+│   │   ├── menu.wxml
+│   │   ├── menu.wxss
+│   │   ├── search.js
+│   │   ├── search.json
+│   │   ├── search.wxml
+│   │   └── search.wxss
+│   ├── index
+│   │   ├── index.js
+│   │   ├── index.json
+│   │   ├── index.wxml
+│   │   └── index.wxss
+│   ├── order
+│   │   ├── comment.js
+│   │   ├── comment.json
+│   │   ├── comment.wxml
+│   │   ├── comment.wxss
+│   │   ├── detail.js
+│   │   ├── detail.json
+│   │   ├── detail.wxml
+│   │   ├── detail.wxss
+│   │   ├── index.js
+│   │   ├── index.json
+│   │   ├── index.wxml
+│   │   └── index.wxss
+│   └── queue
+│       ├── index.js
+│       ├── index.json
+│       ├── index.wxml
+│       └── index.wxss
+├── project.config.json
+├── service
+│   ├── auth.js
+│   ├── cart.js
+│   ├── category.js
+│   ├── customer.js
+│   ├── desk.js
+│   ├── food.js
+│   ├── order.js
+│   └── util.js
+└── utils
+    └── util.js
+```
+#### 1.3.2后端
+* 路由注入
+```
+#路由注入
+route_account = Blueprint( 'account_page',__name__ )
+#路由
+@route_account.route( "/index" )
+def index():
+    pass
+@route_account.route( "/info" )
+def info():
+    pass
+```
+* 获取用户openid
+```
+ @staticmethod
+    def getWeChatOpenId( code ):
+        url = "https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code" \
+            .format(app.config['MINA_APP']['appid'], app.config['MINA_APP']['appkey'], code)
+        r = requests.get(url)
+        res = json.loads(r.text)
+        openid = None
+        if 'openid' in res:
+            openid = res['openid']
+        return openid
+```
+* 数据库防止并发库存问题，坐下selector、update
+
+```
+#为了防止并发库存出问题了，我们坐下selectfor update,
+tmp_food_list = db.session.query( Food ).filter( Food.id.in_( food_ids ) )\.with_for_update().all()
+```
+* 错误反馈与日志管理
+```
+def error_404( e ):
+    LogService.addErrorLog( str( e ) )
+    return ops_render( 'error/error.html',{ 'status':404,'msg':'很抱歉！您访问的页面不存在' } )
+
+class LogService():
+    @staticmethod
+    def addAccessLog():
+        AccessLog = AppAccessLog()
+      ...
+        db.session.add( AccessLog )
+        db.session.commit( )
+        return True
+
+    @staticmethod
+    def addErrorLog( content ):
+        if 'favicon.ico' in request.url:
+            return
+        ErrorLog = AppErrorLog()
+       ...
+        db.session.add(ErrorLog)
+        db.session.commit()
+        return True
+```
+# 2编码风格
+** 代码规范** 
+
+** 可读性注释与说明** 
+```
+    @staticmethod
+    #MD5方法生成授权码
+    def geneAuthCode(user_info = None ):
+        m = hashlib.md5()
+        str = "%s-%s-%s-%s" % (user_info.uid, user_info.login_name, user_info.login_pwd, user_info.login_salt)
+        m.update(str.encode("utf-8"))
+        return m.hexdigest()
+
+    # 登陆密码MD5加密
+    @staticmethod
+    def genePwd( pwd,salt):
+        m = hashlib.md5()
+        str = "%s-%s" % ( base64.encodebytes( pwd.encode("utf-8") ) , salt)
+        m.update(str.encode("utf-8"))
+        return m.hexdigest()
+
+```
