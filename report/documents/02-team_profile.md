@@ -21,7 +21,7 @@ title: 关于团队
 | 16341003   | saturday11   | 软件测试   | 
 | 16341020   | palxu   |  产品经理，数据库DBA  | 
 | 16341019   | wuqing16341019   | 产品特性、设计   | 
-| 16341025   | wcptbtptpbcptdtptp   | 后端代码规范   | 
+| 16341025   | wcptbtptpbcptdtptp   | 系统测试、UI设计、文档规范   | 
 
 ### 3、具体分工与个人宣言
 
