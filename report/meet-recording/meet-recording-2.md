@@ -21,10 +21,10 @@
 
 * 前期调研
 
- ![IR3](/UML/pictures/IR3.jpg)
- ![IR4](/UML/pictures/IR4.jpg)
- ![IR5](/UML/pictures/IR5.jpg)
- ![IR6](/UML/pictures/IR6.jpg)
+ * <img src="/UML/pictures/IR3.jpg" width="240" height="300">
+ * <img src="/UML/pictures/IR4.jpg" width="240" height="300">
+ * <img src="/UML/pictures/IR5.jpg" width="240" height="300">
+ * <img src="/UML/pictures/IR6.jpg" width="240" height="300">
  
 * 前期调研调研结果分析
 	* 当前大学生使用点餐形势实现就餐情况比较普遍，使用众多的点餐软件是美团饿了么等软件，这些软件的功能齐全，界面设计友好，后期的优化服务等都很好，我们应该更多的与大学生的身份相符合，打造出自己的特色，同时给大学生群体带来更多的便利
