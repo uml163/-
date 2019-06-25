@@ -15,19 +15,22 @@
 * 通过问卷调查，我们收集了从大一到研究生的一份随机抽样调查
  * 网上点餐的主要原因
  
-<img src="/UML/pictures/IR3.jpg" width="240" height="400">
+* <img src="/UML/pictures/IR3.jpg" width="240" height="300">
  * 在回收的问卷调查中，较多数人选择了品种齐全与价格便宜
 
  * 主要在哪些app点餐
-<img src="/UML/pictures/IR4.jpg" width="240" height="400">
+ 
+* <img src="/UML/pictures/IR4.jpg" width="240" height="300">
  * 美团和饿了么以及大众点评都是主流的点餐软件，这些软件不仅商家多，长期以来形成了一批稳定的客户，与这几个app比起来，其他的点餐软件用的人就少了很多。
 
  * 网上点餐满意度调查
-<img src="/UML/pictures/IR5.jpg" width="240" height="400">
+ 
+* <img src="/UML/pictures/IR5.jpg" width="240" height="300">
  * 总体来看，学生群体对于网上点餐的满意度都较高，但是任然有部分学生认为当前的点餐体验还可以进一步的得到改善。
 
  * 新点餐软件认同度调查
-<img src="/UML/pictures/IR6.jpg" width="240" height="400">
+ 
+* <img src="/UML/pictures/IR6.jpg" width="240" height="300">
  * 大部分学生认为开发一个新的专门针对学生群体的软件是有用的，鼓励创新式软件开发给学生群体用，也有少部分的学生认为当前的点餐软件已经足够多了，而且在这些软件中优惠活动较多，没有必要在开发新的app。
 
 * 调研总结
